@@ -1,0 +1,78 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "ObjectTracking",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ObjectTracking::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ObjectTracking-Debug-521d5d4c4b85c9e18ceb.json",
+					"name" : "ObjectTracking",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ObjectTracking_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ObjectTracking_autogen-Debug-a8e55d54d836fc747cc7.json",
+					"name" : "ObjectTracking_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ObjectTracking_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ObjectTracking_autogen_timestamp_deps-Debug-b143a12a6f7b599d4da7.json",
+					"name" : "ObjectTracking_autogen_timestamp_deps",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/run/media/tim/Festplatte2/cpp/camera/ObjectTracking/cmake-build-debug",
+		"source" : "/run/media/tim/Festplatte2/cpp/camera/ObjectTracking"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

@@ -1,0 +1,5 @@
+/run/media/tim/Festplatte2/cpp/camera/ObjectTracking/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/run/media/tim/Festplatte2/cpp/camera/ObjectTracking/cmake-build-debug/CMakeFiles/edit_cache.dir
+/run/media/tim/Festplatte2/cpp/camera/ObjectTracking/cmake-build-debug/CMakeFiles/ObjectTracking.dir
+/run/media/tim/Festplatte2/cpp/camera/ObjectTracking/cmake-build-debug/CMakeFiles/ObjectTracking_autogen_timestamp_deps.dir
+/run/media/tim/Festplatte2/cpp/camera/ObjectTracking/cmake-build-debug/CMakeFiles/ObjectTracking_autogen.dir
