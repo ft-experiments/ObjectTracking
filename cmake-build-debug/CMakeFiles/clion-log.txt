@@ -1,4 +1,4 @@
-"/run/media/tim/Festplatte2/Dokumente/Jetbrains IDE/apps/CLion/ch-0/213.6461.46/bin/cmake/linux/bin/cmake" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=/run/media/tim/Festplatte2/Dokumente/Jetbrains IDE/apps/CLion/ch-0/213.6461.46/bin/ninja/linux/ninja" -G Ninja /run/media/tim/Festplatte2/cpp/camera/ObjectTracking
+/home/felix/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/213.6777.58/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/felix/Dokumente/GitHub/ObjectTracking
 -- The C compiler identification is GNU 11.1.0
 -- The CXX compiler identification is GNU 11.1.0
 -- Detecting C compiler ABI info
@@ -24,4 +24,4 @@
 -- Found OpenCV: /usr (found version "4.5.5") 
 -- Configuring done
 -- Generating done
--- Build files have been written to: /run/media/tim/Festplatte2/cpp/camera/ObjectTracking/cmake-build-debug
+-- Build files have been written to: /home/felix/Dokumente/GitHub/ObjectTracking/cmake-build-debug

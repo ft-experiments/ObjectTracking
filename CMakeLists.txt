@@ -14,7 +14,7 @@ find_package(OpenCV REQUIRED)
 include_directories(${OpenCV_INCLUDE_DIRS})
 
 
-add_executable(ObjectTracking main.cpp ImageProcess.cpp ImageProcess.h)
+add_executable(ObjectTracking main.cpp ImageProcess.cpp ImageProcess.h Racer.cpp Racer.h)
 target_link_libraries(ObjectTracking
         Qt::Core
         /usr/local/lib/libuvc.so.0

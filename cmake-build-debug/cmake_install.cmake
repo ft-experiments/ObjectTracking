@@ -1,4 +1,4 @@
-# Install script for directory: /run/media/tim/Festplatte2/cpp/camera/ObjectTracking
+# Install script for directory: /home/felix/Dokumente/GitHub/ObjectTracking
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/run/media/tim/Festplatte2/cpp/camera/ObjectTracking/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/felix/Dokumente/GitHub/ObjectTracking/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

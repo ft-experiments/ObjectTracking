@@ -5,8 +5,14 @@
 #include <opencv2/highgui/highgui_c.h>
 
 #include "ImageProcess.h"
-int printcounter=0;
+#include "Racer.h"
+
 ImageProcess *imageProcess=new ImageProcess();
+
+
+Racer *racer=new Racer();
+
+
 
 static void parseIMG(uint8_t *pVoid, uint32_t width, uint32_t height);
 
@@ -82,6 +88,7 @@ static void parseIMG(uint8_t *pVoid, uint32_t width, uint32_t height) {
     int averagex=0;
     int averagey=0;
     int counter=0;
+    bool nothing=true;
     for(int x=181;x<181+305;x++){
         for(int y=(int)66;y<66+322;y++){
             int pixel = y*imageProcess->width+x;
@@ -91,37 +98,20 @@ static void parseIMG(uint8_t *pVoid, uint32_t width, uint32_t height) {
                 averagex+=x;
                 averagey+=y;
                 counter++;
+                nothing=false;
             }
 
 
         }
     }
+    if(nothing){
+ //       racer->setSpeedForMilliseconds(-40, 5000);
+//        racer->setControllForMilliseconds(30, 5000);
 
-    //if(printcounter%20)printf("x:%d   y:%d\n",averagex/counter,averagey/counter);
-
-    printcounter++;
-    if(printcounter>9999)printcounter=0;
-    /*
-    int length = width * height;
-
-
-
-    int pixel=0;
-
-    for(int x=0; x<width; x++) {
-        for(int y=0; y<height; y++) {
-            pixel = y*width+x;
-            uint8_t red=pVoid[pixel*3+2];
-            uint8_t green=pVoid[pixel*3+1];
-            uint8_t blue=pVoid[pixel*3+0];
-            if(x==363 && y==277) {
-                printf("%d %d %d\n",red,green,blue);
-            }
-           // printf("%d ", );
-        }
-       // printf("\n");
+    }else{
+        racer->setSpeed(40);
     }
-*/
+
 
 }
 
@@ -184,6 +174,9 @@ int main(int argc, char *argv[]) {
                 } else {
                     puts("Streaming...");
                     uvc_set_ae_mode(devh, 1); /* e.g., turn on auto exposure */
+
+
+
                     sleep(999); /* stream for 10 seconds */
                     /* End the stream. Blocks until last callback is serviced */
                     uvc_stop_streaming(devh);

@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="ObjectTracking"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\usr\;CMake Files\..\..\..\..\..\usr\lib64\;CMake Files\..\..\..\..\..\usr\lib64\cmake\;CMake Files\..\..\..\..\..\usr\lib64\cmake\Qt6\;CMake Files\..\..\..\..\..\usr\lib64\cmake\Qt6Core\;CMake Files\..\..\..\..\..\usr\lib64\cmake\Qt6CoreTools\;CMake Files\..\..\..\..\..\usr\lib64\cmake\opencv4\;CMake Files\..\..\..\..\..\usr\lib\;CMake Files\..\..\..\..\..\usr\lib\cmake\;CMake Files\..\..\..\..\..\usr\lib\cmake\Qt6\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/felix/Dokumente/GitHub/ObjectTracking/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/felix/Dokumente/GitHub/ObjectTracking/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/felix/Dokumente/GitHub/ObjectTracking/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/felix/Dokumente/GitHub/ObjectTracking/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/felix/Dokumente/GitHub/ObjectTracking/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/felix/Dokumente/GitHub/ObjectTracking/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/felix/Dokumente/GitHub/ObjectTracking/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/felix/Dokumente/GitHub/ObjectTracking/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/felix/Dokumente/GitHub/ObjectTracking/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/felix/Dokumente/GitHub/ObjectTracking/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/felix/Dokumente/GitHub/ObjectTracking/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/felix/Dokumente/GitHub/ObjectTracking/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/felix/Dokumente/GitHub/ObjectTracking/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/felix/Dokumente/GitHub/ObjectTracking/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/felix/Dokumente/GitHub/ObjectTracking/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ObjectTracking">
+				<Option output="/home/felix/Dokumente/GitHub/ObjectTracking/cmake-build-debug/ObjectTracking" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/felix/Dokumente/GitHub/ObjectTracking/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add directory="/home/felix/Dokumente/GitHub/ObjectTracking/cmake-build-debug/ObjectTracking_autogen/include"/>
+					<Add directory="/usr/include/opencv4"/>
+					<Add directory="/usr/include/qt6/QtCore"/>
+					<Add directory="/usr/include/qt6"/>
+					<Add directory="/usr/lib/qt6/mkspecs/linux-g++"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/felix/Dokumente/GitHub/ObjectTracking/cmake-build-debug/Makefile&quot;  VERBOSE=1 ObjectTracking"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/felix/Dokumente/GitHub/ObjectTracking/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/felix/Dokumente/GitHub/ObjectTracking/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/felix/Dokumente/GitHub/ObjectTracking/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ObjectTracking/fast">
+				<Option output="/home/felix/Dokumente/GitHub/ObjectTracking/cmake-build-debug/ObjectTracking" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/felix/Dokumente/GitHub/ObjectTracking/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add directory="/home/felix/Dokumente/GitHub/ObjectTracking/cmake-build-debug/ObjectTracking_autogen/include"/>
+					<Add directory="/usr/include/opencv4"/>
+					<Add directory="/usr/include/qt6/QtCore"/>
+					<Add directory="/usr/include/qt6"/>
+					<Add directory="/usr/lib/qt6/mkspecs/linux-g++"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/felix/Dokumente/GitHub/ObjectTracking/cmake-build-debug/Makefile&quot;  VERBOSE=1 ObjectTracking/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/felix/Dokumente/GitHub/ObjectTracking/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/felix/Dokumente/GitHub/ObjectTracking/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/felix/Dokumente/GitHub/ObjectTracking/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ObjectTracking_autogen">
+				<Option working_dir="/home/felix/Dokumente/GitHub/ObjectTracking/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/felix/Dokumente/GitHub/ObjectTracking/cmake-build-debug/Makefile&quot;  VERBOSE=1 ObjectTracking_autogen"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/felix/Dokumente/GitHub/ObjectTracking/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/felix/Dokumente/GitHub/ObjectTracking/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/felix/Dokumente/GitHub/ObjectTracking/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/felix/Dokumente/GitHub/ObjectTracking/ImageProcess.cpp">
+			<Option target="ObjectTracking"/>
+		</Unit>
+		<Unit filename="/home/felix/Dokumente/GitHub/ObjectTracking/ImageProcess.h">
+			<Option target="ObjectTracking"/>
+		</Unit>
+		<Unit filename="/home/felix/Dokumente/GitHub/ObjectTracking/Racer.cpp">
+			<Option target="ObjectTracking"/>
+		</Unit>
+		<Unit filename="/home/felix/Dokumente/GitHub/ObjectTracking/Racer.h">
+			<Option target="ObjectTracking"/>
+		</Unit>
+		<Unit filename="/home/felix/Dokumente/GitHub/ObjectTracking/cmake-build-debug/ObjectTracking_autogen/mocs_compilation.cpp">
+			<Option target="ObjectTracking"/>
+		</Unit>
+		<Unit filename="/home/felix/Dokumente/GitHub/ObjectTracking/main.cpp">
+			<Option target="ObjectTracking"/>
+		</Unit>
+		<Unit filename="/home/felix/Dokumente/GitHub/ObjectTracking/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/felix/Dokumente/GitHub/ObjectTracking/../../../../../usr/lib64/cmake/Qt6/Qt6Config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib64\cmake\Qt6\"/>
+		</Unit>
+		<Unit filename="/home/felix/Dokumente/GitHub/ObjectTracking/../../../../../usr/lib64/cmake/Qt6/Qt6ConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib64\cmake\Qt6\"/>
+		</Unit>
+		<Unit filename="/home/felix/Dokumente/GitHub/ObjectTracking/../../../../../usr/lib64/cmake/Qt6/Qt6ConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib64\cmake\Qt6\"/>
+		</Unit>
+		<Unit filename="/home/felix/Dokumente/GitHub/ObjectTracking/../../../../../usr/lib64/cmake/Qt6/Qt6ConfigVersionImpl.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib64\cmake\Qt6\"/>
+		</Unit>
+		<Unit filename="/home/felix/Dokumente/GitHub/ObjectTracking/../../../../../usr/lib64/cmake/Qt6/Qt6Dependencies.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib64\cmake\Qt6\"/>
+		</Unit>
+		<Unit filename="/home/felix/Dokumente/GitHub/ObjectTracking/../../../../../usr/lib64/cmake/Qt6/Qt6Targets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib64\cmake\Qt6\"/>
+		</Unit>
+		<Unit filename="/home/felix/Dokumente/GitHub/ObjectTracking/../../../../../usr/lib64/cmake/Qt6/Qt6VersionlessTargets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib64\cmake\Qt6\"/>
+		</Unit>
+		<Unit filename="/home/felix/Dokumente/GitHub/ObjectTracking/../../../../../usr/lib64/cmake/Qt6/QtFeature.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib64\cmake\Qt6\"/>
+		</Unit>
+		<Unit filename="/home/felix/Dokumente/GitHub/ObjectTracking/../../../../../usr/lib64/cmake/Qt6/QtPublicCMakeVersionHelpers.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib64\cmake\Qt6\"/>
+		</Unit>
+		<Unit filename="/home/felix/Dokumente/GitHub/ObjectTracking/../../../../../usr/lib64/cmake/Qt6/QtPublicDependencyHelpers.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib64\cmake\Qt6\"/>
+		</Unit>
+		<Unit filename="/home/felix/Dokumente/GitHub/ObjectTracking/../../../../../usr/lib64/cmake/Qt6/QtPublicFinalizerHelpers.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib64\cmake\Qt6\"/>
+		</Unit>
+		<Unit filename="/home/felix/Dokumente/GitHub/ObjectTracking/../../../../../usr/lib64/cmake/Qt6/QtPublicFindPackageHelpers.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib64\cmake\Qt6\"/>
+		</Unit>
+		<Unit filename="/home/felix/Dokumente/GitHub/ObjectTracking/../../../../../usr/lib64/cmake/Qt6/QtPublicPluginHelpers.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib64\cmake\Qt6\"/>
+		</Unit>
+		<Unit filename="/home/felix/Dokumente/GitHub/ObjectTracking/../../../../../usr/lib64/cmake/Qt6/QtPublicTargetHelpers.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib64\cmake\Qt6\"/>
+		</Unit>
+		<Unit filename="/home/felix/Dokumente/GitHub/ObjectTracking/../../../../../usr/lib64/cmake/Qt6/QtPublicWalkLibsHelpers.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib64\cmake\Qt6\"/>
+		</Unit>
+		<Unit filename="/home/felix/Dokumente/GitHub/ObjectTracking/../../../../../usr/lib64/cmake/Qt6Core/Qt6CoreAdditionalTargetInfo.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib64\cmake\Qt6Core\"/>
+		</Unit>
+		<Unit filename="/home/felix/Dokumente/GitHub/ObjectTracking/../../../../../usr/lib64/cmake/Qt6Core/Qt6CoreConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib64\cmake\Qt6Core\"/>
+		</Unit>
+		<Unit filename="/home/felix/Dokumente/GitHub/ObjectTracking/../../../../../usr/lib64/cmake/Qt6Core/Qt6CoreConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib64\cmake\Qt6Core\"/>
+		</Unit>
+		<Unit filename="/home/felix/Dokumente/GitHub/ObjectTracking/../../../../../usr/lib64/cmake/Qt6Core/Qt6CoreConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib64\cmake\Qt6Core\"/>
+		</Unit>
+		<Unit filename="/home/felix/Dokumente/GitHub/ObjectTracking/../../../../../usr/lib64/cmake/Qt6Core/Qt6CoreConfigVersionImpl.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib64\cmake\Qt6Core\"/>
+		</Unit>
+		<Unit filename="/home/felix/Dokumente/GitHub/ObjectTracking/../../../../../usr/lib64/cmake/Qt6Core/Qt6CoreDependencies.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib64\cmake\Qt6Core\"/>
+		</Unit>
+		<Unit filename="/home/felix/Dokumente/GitHub/ObjectTracking/../../../../../usr/lib64/cmake/Qt6Core/Qt6CoreMacros.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib64\cmake\Qt6Core\"/>
+		</Unit>
+		<Unit filename="/home/felix/Dokumente/GitHub/ObjectTracking/../../../../../usr/lib64/cmake/Qt6Core/Qt6CoreTargets-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib64\cmake\Qt6Core\"/>
+		</Unit>
+		<Unit filename="/home/felix/Dokumente/GitHub/ObjectTracking/../../../../../usr/lib64/cmake/Qt6Core/Qt6CoreTargets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib64\cmake\Qt6Core\"/>
+		</Unit>
+		<Unit filename="/home/felix/Dokumente/GitHub/ObjectTracking/../../../../../usr/lib64/cmake/Qt6Core/Qt6CoreVersionlessTargets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib64\cmake\Qt6Core\"/>
+		</Unit>
+		<Unit filename="/home/felix/Dokumente/GitHub/ObjectTracking/../../../../../usr/lib64/cmake/Qt6CoreTools/Qt6CoreToolsAdditionalTargetInfo.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib64\cmake\Qt6CoreTools\"/>
+		</Unit>
+		<Unit filename="/home/felix/Dokumente/GitHub/ObjectTracking/../../../../../usr/lib64/cmake/Qt6CoreTools/Qt6CoreToolsConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib64\cmake\Qt6CoreTools\"/>
+		</Unit>
+		<Unit filename="/home/felix/Dokumente/GitHub/ObjectTracking/../../../../../usr/lib64/cmake/Qt6CoreTools/Qt6CoreToolsConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib64\cmake\Qt6CoreTools\"/>
+		</Unit>
+		<Unit filename="/home/felix/Dokumente/GitHub/ObjectTracking/../../../../../usr/lib64/cmake/Qt6CoreTools/Qt6CoreToolsConfigVersionImpl.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib64\cmake\Qt6CoreTools\"/>
+		</Unit>
+		<Unit filename="/home/felix/Dokumente/GitHub/ObjectTracking/../../../../../usr/lib64/cmake/Qt6CoreTools/Qt6CoreToolsDependencies.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib64\cmake\Qt6CoreTools\"/>
+		</Unit>
+		<Unit filename="/home/felix/Dokumente/GitHub/ObjectTracking/../../../../../usr/lib64/cmake/Qt6CoreTools/Qt6CoreToolsTargets-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib64\cmake\Qt6CoreTools\"/>
+		</Unit>
+		<Unit filename="/home/felix/Dokumente/GitHub/ObjectTracking/../../../../../usr/lib64/cmake/Qt6CoreTools/Qt6CoreToolsTargets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib64\cmake\Qt6CoreTools\"/>
+		</Unit>
+		<Unit filename="/home/felix/Dokumente/GitHub/ObjectTracking/../../../../../usr/lib64/cmake/Qt6CoreTools/Qt6CoreToolsVersionlessTargets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib64\cmake\Qt6CoreTools\"/>
+		</Unit>
+		<Unit filename="/home/felix/Dokumente/GitHub/ObjectTracking/../../../../../usr/lib64/cmake/opencv4/OpenCVConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib64\cmake\opencv4\"/>
+		</Unit>
+		<Unit filename="/home/felix/Dokumente/GitHub/ObjectTracking/../../../../../usr/lib64/cmake/opencv4/OpenCVConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib64\cmake\opencv4\"/>
+		</Unit>
+		<Unit filename="/home/felix/Dokumente/GitHub/ObjectTracking/../../../../../usr/lib64/cmake/opencv4/OpenCVModules-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib64\cmake\opencv4\"/>
+		</Unit>
+		<Unit filename="/home/felix/Dokumente/GitHub/ObjectTracking/../../../../../usr/lib64/cmake/opencv4/OpenCVModules.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib64\cmake\opencv4\"/>
+		</Unit>
+		<Unit filename="/home/felix/Dokumente/GitHub/ObjectTracking/../../../../../usr/lib/cmake/Qt6/FindWrapAtomic.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\cmake\Qt6\"/>
+		</Unit>
+		<Unit filename="/home/felix/Dokumente/GitHub/ObjectTracking/../../../../../usr/lib/cmake/Qt6/QtFeatureCommon.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\cmake\Qt6\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
